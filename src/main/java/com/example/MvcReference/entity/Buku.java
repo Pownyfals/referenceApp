@@ -1,4 +1,4 @@
-package com.example.reference.buku;
+package com.example.MvcReference.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

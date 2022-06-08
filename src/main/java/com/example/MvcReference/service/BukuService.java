@@ -1,10 +1,13 @@
-package com.example.reference.buku;
+package com.example.MvcReference.service;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.example.MvcReference.dao.BukuRepository;
+import com.example.MvcReference.entity.Buku;
 
 @Service
 public class BukuService {
@@ -24,7 +27,7 @@ public class BukuService {
         // Optional<Buku> bukuOptional =
         // bukuRepository.findBukuByJudul(buku.getJudul());
         // if (bukuOptional.isPresent()) {
-        // throw new IllegalStateException("Email Taken");
+        // throw new IllegalStateException("Judul Telah Tersedia");
         // }
         bukuRepository.save(buku);
     }

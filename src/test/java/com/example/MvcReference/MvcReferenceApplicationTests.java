@@ -1,10 +1,10 @@
-package com.example.reference;
+package com.example.MvcReference;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ReferenceApplicationTests {
+class MvcReferenceApplicationTests {
 
 	@Test
 	void contextLoads() {

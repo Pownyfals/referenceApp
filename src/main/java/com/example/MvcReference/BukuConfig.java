@@ -1,4 +1,4 @@
-package com.example.reference.buku;
+package com.example.MvcReference;
 
 import java.util.List;
 
@@ -6,8 +6,11 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import com.example.MvcReference.dao.BukuRepository;
+import com.example.MvcReference.entity.Buku;
+
 @Configuration
-public class bukuConfig {
+public class BukuConfig {
 
     @Bean
     CommandLineRunner commandLineRunner(BukuRepository bukuRepository) {
